@@ -7,7 +7,7 @@ title: Clyer's Blog
 subtitle: ''
 description: ''
 keywords:
-author: 
+author: John Doe
 language: en
 timezone: ''
 
@@ -102,9 +102,3 @@ theme: redefine
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-
-search:
-  path: search.xml
-  field: post
-  content: true
-  format: html

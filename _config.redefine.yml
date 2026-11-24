@@ -1,0 +1,30 @@
+# Waline 留言服務設定；Hexo 會將此檔與 Redefine 預設設定合併。
+comment:
+  enable: true
+  system: waline
+  config:
+    waline:
+      serverUrl: https://comment-iota-six.vercel.app
+      lang: zh-TW
+      meta: ['nick', 'mail']
+
+# 使用既有音檔與封面顯示固定式音樂播放器。
+plugins:
+  aplayer:
+    enable: true
+    type: fixed
+    audios:
+      - name: 晴天
+        artist: 周杰倫
+        url: /music/qing_tian.mp3
+        cover: /image/jay.jpeg
+
+# 讓播放器在首頁頂端與較窄的畫面也能顯示及點擊。
+inject:
+  enable: true
+  head:
+    - |
+      <style id="blog-music-visibility">
+        #aplayer { display: block; }
+        #aplayer.hide { opacity: 1; pointer-events: auto; }
+      </style>
