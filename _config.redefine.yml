@@ -30,6 +30,7 @@ plugins:
         artist: 周杰倫
         url: /my_website/music/qing_tian.mp3
         cover: /my_website/image/jay.jpeg
+        lrc: /my_website/music/qing_tian.lrc
 
 # 讓播放器在首頁頂端與較窄的畫面也能顯示及點擊。
 inject:
