@@ -1,3 +1,15 @@
+# 個人化設定放在主專案，讓 GitHub Actions 使用相同內容。
+info:
+  title: Clyer's Blog
+  subtitle: 記錄一下學習過程
+  author: Clyer Lin
+  url: https://clyer0318.github.io/my_website
+
+home_banner:
+  title: Clyer's Blog
+  subtitle:
+    text: ['記錄一下學習過程']
+
 # Waline 留言服務設定；Hexo 會將此檔與 Redefine 預設設定合併。
 comment:
   enable: true
@@ -16,8 +28,8 @@ plugins:
     audios:
       - name: 晴天
         artist: 周杰倫
-        url: /music/qing_tian.mp3
-        cover: /image/jay.jpeg
+        url: /my_website/music/qing_tian.mp3
+        cover: /my_website/image/jay.jpeg
 
 # 讓播放器在首頁頂端與較窄的畫面也能顯示及點擊。
 inject:
